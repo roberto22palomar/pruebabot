@@ -1,8 +1,9 @@
+
 modules = ["python-3.12"]
-run = "pyhton app.py"
+run = "python app.py"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "pyhton app.py"]
+run = ["sh", "-c", "python app.py"]
