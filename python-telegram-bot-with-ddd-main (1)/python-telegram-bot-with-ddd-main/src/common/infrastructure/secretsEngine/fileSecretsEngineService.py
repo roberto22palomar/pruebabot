@@ -6,7 +6,7 @@ from common.domain.secretsEngine.secretsEngineService import SecretsEngineServic
 class FileSecretsEngineService(SecretsEngineService):
     def __init__(self, 
                  logger: LoggerService):
-        self.__path = "./.secrets/secrets.json"
+        self.__path = "python-telegram-bot-with-ddd-main (1)/python-telegram-bot-with-ddd-main/.secrets/secrets.json"
         self.__logger = logger
         self.__key_value_secrets = {}
         self.__loadSecrets()
