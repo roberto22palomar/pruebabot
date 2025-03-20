@@ -1,0 +1,32 @@
+{pkgs}: {
+  deps = [
+    pkgs.libcxx
+    pkgs.xcodebuild
+    pkgs.cacert
+    pkgs.qhull
+    pkgs.gtk3
+    pkgs.gobject-introspection
+    pkgs.ghostscript
+    pkgs.ffmpeg-full
+    pkgs.cairo
+    pkgs.zlib
+    pkgs.tk
+    pkgs.tcl
+    pkgs.openjpeg
+    pkgs.libwebp
+    pkgs.libtiff
+    pkgs.libjpeg
+    pkgs.libimagequant
+    pkgs.lcms2
+    pkgs.freetype
+    pkgs.chromedriver
+    pkgs.libffi
+    pkgs.libxcrypt
+    pkgs.glibcLocales
+    pkgs.rustc
+    pkgs.pkg-config
+    pkgs.openssl
+    pkgs.libiconv
+    pkgs.cargo
+  ];
+}
