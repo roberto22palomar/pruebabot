@@ -1,4 +1,5 @@
 from common.domain.log.loggerService import LoggerService
+from flask import Flask
 from common.domain.secretsEngine.secretsEngineService import SecretsEngineService
 from common.infrastructure.log.basicLoggerService import BasicLoggerService
 from common.infrastructure.secretsEngine.fileSecretsEngineService import FileSecretsEngineService
@@ -16,6 +17,23 @@ def main() -> None:
                                                                           secrets_engine,
                                                                           user_repository)
     star_service_listener.run()
+
+    from flask import Flask
+import threading
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "¡Estoy vivo!"
+
+def run_server():
+    app.run(host="0.0.0.0", port=8080)
+
+if __name__ == '__main__':
+    threading.Thread(target=run_server, daemon=True).start()  # 🔹 Iniciar Flask en segundo plano
+    main()
+
 
 if __name__ == '__main__':
     main()
