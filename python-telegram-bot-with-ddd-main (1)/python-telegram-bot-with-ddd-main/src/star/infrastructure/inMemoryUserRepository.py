@@ -20,8 +20,24 @@ class InMemoryUserRepository(UserRepository):
         self.update(user_info)
 
     def update(self, user_info: User) -> None:
+        print(f"📝 Intentando actualizar usuario {user_info.user_id} con numero_star {user_info.numero_star}")
+        
+        if user_info.user_id in self.dict_user_info:
+            print("✅ Usuario encontrado, actualizando...")
+        else:
+            print("❌ ERROR: Usuario no encontrado en la base de datos en memoria")
+
         self.dict_user_info[user_info.user_id] = user_info
         self.__save_to_file()
+
+        # Verificar si se guardó correctamente
+        with open(self.__file_name, "r") as archivo:
+            data = json.load(archivo)
+            if str(user_info.user_id) in data:
+                print(f"✅ Confirmado: el usuario {user_info.user_id} fue guardado en el JSON.")
+            else:
+                print(f"❌ ERROR: El usuario {user_info.user_id} no se guardó en el JSON.")
+
 
     def delete(self, user: User):
         self.dict_user_info.pop(user.user_id,None)
@@ -69,14 +85,17 @@ class InMemoryUserRepository(UserRepository):
             json.dump(dict_user_info_serializable, archivo)
 
     def __load_from_file(self):
-        with open(self.__file_name, "r") as archivo:
-            dict_user_info_serializable = json.load(archivo)
-            for user_id, user_info in dict_user_info_serializable.items():
-                self.dict_user_info[int(user_id)] = User(
-                    UserNombre(user_info["nombre"]),
-                    UserNumeroStar(int(user_info["numero_star"])),
-                    UserFechaStar(
-                        datetime.strptime(user_info["fecha_star"], "%d/%m/%Y")
-                    ),
-                    UserId(int(user_info["user_id"])),
-                )
+        try:
+            with open(self.__file_name, "r") as archivo:
+                dict_user_info_serializable = json.load(archivo)
+                for user_id, user_info in dict_user_info_serializable.items():
+                    self.dict_user_info[int(user_id)] = User(
+                        UserNombre(user_info["nombre"]),
+                        UserNumeroStar(int(user_info["numero_star"])),
+                        UserFechaStar(datetime.strptime(user_info["fecha_star"], "%d/%m/%Y")),
+                        UserId(int(user_info["user_id"])),
+                    )
+            print(f"📌 Usuarios cargados desde JSON: {self.dict_user_info}")
+        except Exception as e:
+            print(f"❌ Error cargando usuarios desde JSON: {e}")
+

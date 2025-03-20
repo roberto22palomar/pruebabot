@@ -1,1 +1,194 @@
-{"1": {"nombre": "alfonso", "numero_star": 45, "fecha_star": "22/02/2022", "user_id": 1}, "5176479147": {"nombre": "Leonardo", "numero_star": 2222, "fecha_star": "18/03/2025", "user_id": 5176479147}, "6323216742": {"nombre": "_", "numero_star": 4615, "fecha_star": "02/04/2024", "user_id": 6323216742}}
+{
+    "99054523": {
+        "nombre": "alfonso",
+        "numero_star": 99998,
+        "fecha_star": "18/03/2025",
+        "user_id": 99054523
+    },
+    "6116987952": {
+        "nombre": "Luis",
+        "numero_star": 4556,
+        "fecha_star": "25/04/2024",
+        "user_id": 6116987952
+    },
+    "1610485182": {
+        "nombre": "Silvia",
+        "numero_star": 5607,
+        "fecha_star": "19/02/2025",
+        "user_id": 1610485182
+    },
+    "755406790": {
+        "nombre": "Mar_a_Toledano",
+        "numero_star": 4097,
+        "fecha_star": "19/09/2023",
+        "user_id": 755406790
+    },
+    "7763261": {
+        "nombre": "Ana",
+        "numero_star": 5652,
+        "fecha_star": "24/02/2025",
+        "user_id": 7763261
+    },
+    "7229447428": {
+        "nombre": "Irene",
+        "numero_star": 3711,
+        "fecha_star": "28/03/2023",
+        "user_id": 7229447428
+    },
+    "1702961418": {
+        "nombre": "Juan_Eloy",
+        "numero_star": 3918,
+        "fecha_star": "08/06/2023",
+        "user_id": 1702961418
+    },
+    "5176479147": {
+        "nombre": "Roberto",
+        "numero_star": 99876,
+        "fecha_star": "19/03/2025",
+        "user_id": 5176479147
+    },
+    "1361025087": {
+        "nombre": "_",
+        "numero_star": 4622,
+        "fecha_star": "30/05/2024",
+        "user_id": 1361025087
+    },
+    "6323216742": {
+        "nombre": "_",
+        "numero_star": 4515,
+        "fecha_star": "02/04/2024",
+        "user_id": 6323216742
+    },
+    "4644368": {
+        "nombre": "Sergio",
+        "numero_star": 4535,
+        "fecha_star": "11/04/2024",
+        "user_id": 4644368
+    },
+    "5235874539": {
+        "nombre": "Raquel",
+        "numero_star": 2968,
+        "fecha_star": "19/03/2025",
+        "user_id": 5235874539
+    },
+    "1328492464": {
+        "nombre": "R",
+        "numero_star": 4216,
+        "fecha_star": "02/11/2023",
+        "user_id": 1328492464
+    },
+    "921772079": {
+        "nombre": "Josu",
+        "numero_star": 2966,
+        "fecha_star": "22/02/2022",
+        "user_id": 921772079
+    },
+    "1203795045": {
+        "nombre": "V_ctor",
+        "numero_star": 5339,
+        "fecha_star": "09/12/2024",
+        "user_id": 1203795045
+    },
+    "6422199616": {
+        "nombre": "Alejandra",
+        "numero_star": 4352,
+        "fecha_star": "01/01/2024",
+        "user_id": 6422199616
+    },
+    "904004428": {
+        "nombre": "Pablo",
+        "numero_star": 3960,
+        "fecha_star": "03/07/2023",
+        "user_id": 904004428
+    },
+    "5580335671": {
+        "nombre": "Alba",
+        "numero_star": 4084,
+        "fecha_star": "18/09/2023",
+        "user_id": 5580335671
+    },
+    "294826844": {
+        "nombre": "Amayu",
+        "numero_star": 3922,
+        "fecha_star": "09/06/2023",
+        "user_id": 294826844
+    },
+    "1478099207": {
+        "nombre": "Jg",
+        "numero_star": 3446,
+        "fecha_star": "07/11/2022",
+        "user_id": 1478099207
+    },
+    "6836115410": {
+        "nombre": "A_Alt",
+        "numero_star": 4663,
+        "fecha_star": "19/03/2025",
+        "user_id": 6836115410
+    },
+    "6727832603": {
+        "nombre": "Alicia",
+        "numero_star": 3944,
+        "fecha_star": "21/06/2023",
+        "user_id": 6727832603
+    },
+    "6145947102": {
+        "nombre": "Janis",
+        "numero_star": 3738,
+        "fecha_star": "30/03/2022",
+        "user_id": 6145947102
+    },
+    "5417266978": {
+        "nombre": "Cris",
+        "numero_star": 4702,
+        "fecha_star": "26/07/2024",
+        "user_id": 5417266978
+    },
+    "6516182805": {
+        "nombre": "Rub_n",
+        "numero_star": 3793,
+        "fecha_star": "18/04/2023",
+        "user_id": 6516182805
+    },
+    "6712117567": {
+        "nombre": "P",
+        "numero_star": 4518,
+        "fecha_star": "04/04/2024",
+        "user_id": 6712117567
+    },
+    "787429276": {
+        "nombre": "_",
+        "numero_star": 4269,
+        "fecha_star": "19/11/2023",
+        "user_id": 787429276
+    },
+    "7018179698": {
+        "nombre": "Aurora",
+        "numero_star": 5737,
+        "fecha_star": "15/03/2025",
+        "user_id": 7018179698
+    },
+    "386879961": {
+        "nombre": "Sergio",
+        "numero_star": 5190,
+        "fecha_star": "23/10/2024",
+        "user_id": 386879961
+    },
+    "7041374079": {
+        "nombre": "J",
+        "numero_star": 4023,
+        "fecha_star": "11/08/2023",
+        "user_id": 7041374079
+    },
+    "34825341": {
+        "nombre": "Gema",
+        "numero_star": 5434,
+        "fecha_star": "13/01/2025",
+        "user_id": 34825341
+    },
+    "1019776644": {
+        "nombre": "Iv_n",
+        "numero_star": 4047,
+        "fecha_star": "01/09/2023",
+        "user_id": 1019776644
+    }
+}
